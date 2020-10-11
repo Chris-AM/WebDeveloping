@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #3483eb;
+}
+.summary{
+    background-color: #34ebb7 ;
+}
+p{
+    display: inline-block;
+    width: 400px;
+}
