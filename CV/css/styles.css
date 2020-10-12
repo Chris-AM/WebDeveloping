@@ -2,6 +2,10 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+}
+
+.container {
     background-color: #e0dbd1;
 }
 
@@ -9,6 +13,7 @@
     display: inline-flex;
     flex-direction: column;
     list-style-type: none;
+    top: 0px;
 }
 
 .specific {
@@ -29,4 +34,17 @@
 p {
     display: inline-block;
     width: 400px;
+}
+
+.sideBar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #e0dbd1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-left: 5px solid #080808;
 }
