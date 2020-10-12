@@ -20,7 +20,7 @@ body {
 }
 
 .aInfo {
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -30,6 +30,7 @@ ul {
 
 a {
     text-decoration: none;
+    margin-left: 20px;
 }
 
 .list {
@@ -37,6 +38,26 @@ a {
     flex-direction: column;
     list-style-type: none;
     margin: 5px;
+    padding-left: 0;
+}
+
+.others {
+    margin-top: 5px;
+}
+
+.w350 {
+    width: calc(100% - 300px);
+}
+
+.jobName {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.jobDate {
+    margin-top: 5px;
 }
 
 
@@ -44,18 +65,24 @@ a {
 
 .header {
     background-color: #3483eb;
-    padding: 16px;
+    padding: 0px;
     color: #ffffff;
     text-align: center;
 }
 
 .name {
+    margin-top: 5px;
     display: inline-block;
     font-size: 35px;
 }
 
 .subtitle {
     font-size: 25px;
+    margin-top: 0px;
+}
+
+.image {
+    padding-bottom: 15px;
 }
 
 .mySelf {
@@ -63,12 +90,22 @@ a {
     max-width: 200px;
     width: 120px;
     height: 120px;
+    border-radius: 50%;
 }
 
 .summary {
-    background-color: #66ff66;
+    background-color: #cfe2a2;
     text-align: center;
     padding: 16px;
+}
+
+.jobInfo {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.pExperience {
+    margin-top: 0px;
 }
 
 .container {
@@ -87,4 +124,16 @@ a {
     overflow-x: hidden;
     padding-top: 20px;
     border-left: 5px solid #080808;
+}
+
+.head {
+    margin-top: -9px;
+}
+
+.github {
+    background: url(../assests/img/Orion_github.svg) no-repeat;
+}
+
+.linkedin {
+    background: url(../assests/img/linkedin.svg) no-repeat;
 }
