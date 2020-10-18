@@ -18,7 +18,7 @@ closes.forEach(function(close) {
         //setting time
         setTimeout(function() {
             //back to the index
-            location.href = "/";
+            location.href = "../index.html";
         }, 600)
 
 
